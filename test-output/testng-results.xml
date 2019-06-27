@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="96481" started-at="2019-06-26T11:58:18Z" finished-at="2019-06-26T11:59:55Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="96481" started-at="2019-06-26T11:58:18Z" finished-at="2019-06-26T11:59:55Z">
+      <class name="com.crm.wa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="setUp" is-config="true" duration-ms="40172" started-at="2019-06-26T17:28:18Z" finished-at="2019-06-26T17:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="verifyContactsPageLabel" duration-ms="258" started-at="2019-06-26T17:28:58Z" finished-at="2019-06-26T17:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="1919" started-at="2019-06-26T17:28:59Z" finished-at="2019-06-26T17:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="setUp" is-config="true" duration-ms="19923" started-at="2019-06-26T17:29:04Z" finished-at="2019-06-26T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNeContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="validateCreateNeContact" duration-ms="3107" started-at="2019-06-26T17:29:24Z" data-provider="getCRMTestData" finished-at="2019-06-26T17:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sudha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNeContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="1023" started-at="2019-06-26T17:29:27Z" finished-at="2019-06-26T17:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="setUp" is-config="true" duration-ms="22688" started-at="2019-06-26T17:29:28Z" finished-at="2019-06-26T17:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNeContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="validateCreateNeContact" duration-ms="2922" started-at="2019-06-26T17:29:51Z" data-provider="getCRMTestData" finished-at="2019-06-26T17:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Strides]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNeContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.wa.testcases.ContactsPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="1010" started-at="2019-06-26T17:29:54Z" finished-at="2019-06-26T17:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.wa.testcases.ContactsPageTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>

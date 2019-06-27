@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 240.092 sec <<< FAILURE!
+verifyContactsPageLabel(com.crm.wa.testcases.ContactsPageTest)  Time elapsed: 2.149 sec  <<< FAILURE!
+java.lang.AssertionError: CRM expected [CRM] but found [Home Page Title not matched]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.crm.wa.testcases.ContactsPageTest.verifyContactsPageLabel(ContactsPageTest.java:44)
+
+verifyHomePageTitleTest(com.crm.wa.testcases.HomePageTest)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: CRM expected [CRM] but found [Home Page Title not matched]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.crm.wa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:40)
+
